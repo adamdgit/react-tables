@@ -1,0 +1,19 @@
+.table-data {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+  text-align: center;
+}
+
+.table-data tr {
+  outline: 1px solid white;
+  height: 40px;
+}
+
+.table-data tr:nth-child(2n+1) {
+  background-color: #333;
+}
+
+.table-data thead td {
+  min-width: 150px;
+}
